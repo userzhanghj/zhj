@@ -1,0 +1,2 @@
+date, sn, test_result, dispensing_result, sfr_c, sfr_lu, sfr_ru, sfr_lb, sfr_rb, eSfrDiff, tilt_x, tilt_y, 						 center_x, center_y, coor_lt_x, coor_lt_y, coor_rt_x, coor_rt_y, coor_lb_x, coor_lb_y, coor_rb_x, coor_rb_y, eCoorDiff
+#20181130151927, , 1, 0, 61.88, 32.46, 39.19, 35.38, 51.73, 29.00, 0.00, 0.00, 399.45, 238.99, 258.16, 101.99, 541.23, 97.50, 256.99, 383.18, 544.96, 380.30, 6.00

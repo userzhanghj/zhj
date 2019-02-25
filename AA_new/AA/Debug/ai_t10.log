@@ -1,0 +1,119 @@
+﻿生成启动时间为 2017/11/2 17:12:04。
+     1>项目“D:\vs\纵目\AA\ai_t10\ai_t10.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“D:\vs\纵目\AA\Debug\ai_t10.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         E:\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\vs\纵目\AA\Debug\\" /Fd"D:\vs\纵目\AA\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dlg_aiu3_config.cpp dlg_webcam_config.cpp fun_aiu3.cpp hw_config.cpp test.cpp
+         test.cpp
+         hw_config.cpp
+         fun_aiu3.cpp
+     1>d:\vs\纵目\aa\ai_t10\fun_aiu3.cpp(325): warning C4244: “参数”: 从“DWORD”转换到“float”，可能丢失数据
+         dlg_webcam_config.cpp
+         dlg_aiu3_config.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"D:\vs\纵目\AA\Debug\ai_t10.res" ai_t10.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"D:\vs\纵目\AA\Debug\ai_t10_d.exe.embed.manifest.res" "D:\vs\纵目\AA\Debug\ai_t10_d_manifest.rc" 
+       Link:
+         E:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\vs\纵目\AA\\bin\ai_t10_d.exe" /INCREMENTAL /NOLOGO opencv_ts2410.lib opencv_calib3d2410.lib opencv_core2410.lib opencv_imgproc2410.lib opencv_video2410.lib opencv_highgui2410.lib opencv_photo2410.lib opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib opencv_nonfree2410.lib opencv_objdetect2410.lib opencv_ocl2410.lib opencv_photo2410.lib opencv_stitching2410.lib opencv_superres2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_videostab2410.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"D:\vs\纵目\AA\Debug\ai_t10_d.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\vs\纵目\AA\bin\ai_t10_d.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\vs\纵目\AA\\bin\ai_t10_d.lib" /MACHINE:X86 "D:\vs\纵目\AA\Debug\ai_t10.res"
+         "D:\vs\纵目\AA\Debug\ai_t10_d.exe.embed.manifest.res"
+         "D:\vs\纵目\AA\Debug\aa_motion.obj"
+         "D:\vs\纵目\AA\Debug\CameraDS.obj"
+         "D:\vs\纵目\AA\Debug\cvbs_tsw_360e.obj"
+         "D:\vs\纵目\AA\Debug\dlg_aiu3_config.obj"
+         "D:\vs\纵目\AA\Debug\dlg_webcam_config.obj"
+         "D:\vs\纵目\AA\Debug\fun_aiu3.obj"
+         "D:\vs\纵目\AA\Debug\guide_line.obj"
+         "D:\vs\纵目\AA\Debug\histogram.obj"
+         "D:\vs\纵目\AA\Debug\hw_config.obj"
+         "D:\vs\纵目\AA\Debug\image.obj"
+         "D:\vs\纵目\AA\Debug\image_info.obj"
+         "D:\vs\纵目\AA\Debug\import_dll.obj"
+         "D:\vs\纵目\AA\Debug\inf_motion_aa.obj"
+         "D:\vs\纵目\AA\Debug\interface.obj"
+         "D:\vs\纵目\AA\Debug\io_function.obj"
+         "D:\vs\纵目\AA\Debug\io_kernel.obj"
+         "D:\vs\纵目\AA\Debug\log.obj"
+         "D:\vs\纵目\AA\Debug\mdlg.obj"
+         "D:\vs\纵目\AA\Debug\measure.obj"
+         "D:\vs\纵目\AA\Debug\motions.obj"
+         "D:\vs\纵目\AA\Debug\motor_drv.obj"
+         "D:\vs\纵目\AA\Debug\raw_config.obj"
+         "D:\vs\纵目\AA\Debug\read_cntr.obj"
+         "D:\vs\纵目\AA\Debug\recipe.obj"
+         "D:\vs\纵目\AA\Debug\rs232.obj"
+         "D:\vs\纵目\AA\Debug\sm101.obj"
+         "D:\vs\纵目\AA\Debug\sm102.obj"
+         "D:\vs\纵目\AA\Debug\sm103.obj"
+         "D:\vs\纵目\AA\Debug\sm104.obj"
+         "D:\vs\纵目\AA\Debug\sm201.obj"
+         "D:\vs\纵目\AA\Debug\sm202.obj"
+         "D:\vs\纵目\AA\Debug\sm203.obj"
+         "D:\vs\纵目\AA\Debug\sm204.obj"
+         "D:\vs\纵目\AA\Debug\t10.obj"
+         "D:\vs\纵目\AA\Debug\tcp_ip.obj"
+         "D:\vs\纵目\AA\Debug\test.obj"
+         "D:\vs\纵目\AA\Debug\test_config.obj"
+         "D:\vs\纵目\AA\Debug\test_reg_mark_chart.obj"
+         "D:\vs\纵目\AA\Debug\test_std_chart.obj"
+         "D:\vs\纵目\AA\Debug\test_white.obj"
+         "D:\vs\纵目\AA\Debug\ts_screen.obj"
+         "D:\vs\纵目\AA\Debug\usb_cam.obj"
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"D:\vs\纵目\AA\Debug\ai_t10_d.exe.embed.manifest" /manifest "D:\vs\纵目\AA\Debug\ai_t10_d.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"D:\vs\纵目\AA\Debug\ai_t10_d.exe.embed.manifest.res" "D:\vs\纵目\AA\Debug\ai_t10_d_manifest.rc" 
+       LinkEmbedManifest:
+         E:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\vs\纵目\AA\\bin\ai_t10_d.exe" /INCREMENTAL /NOLOGO opencv_ts2410.lib opencv_calib3d2410.lib opencv_core2410.lib opencv_imgproc2410.lib opencv_video2410.lib opencv_highgui2410.lib opencv_photo2410.lib opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib opencv_nonfree2410.lib opencv_objdetect2410.lib opencv_ocl2410.lib opencv_photo2410.lib opencv_stitching2410.lib opencv_superres2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_videostab2410.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"D:\vs\纵目\AA\Debug\ai_t10_d.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\vs\纵目\AA\bin\ai_t10_d.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\vs\纵目\AA\\bin\ai_t10_d.lib" /MACHINE:X86 "D:\vs\纵目\AA\Debug\ai_t10.res"
+         "D:\vs\纵目\AA\Debug\ai_t10_d.exe.embed.manifest.res"
+         "D:\vs\纵目\AA\Debug\aa_motion.obj"
+         "D:\vs\纵目\AA\Debug\CameraDS.obj"
+         "D:\vs\纵目\AA\Debug\cvbs_tsw_360e.obj"
+         "D:\vs\纵目\AA\Debug\dlg_aiu3_config.obj"
+         "D:\vs\纵目\AA\Debug\dlg_webcam_config.obj"
+         "D:\vs\纵目\AA\Debug\fun_aiu3.obj"
+         "D:\vs\纵目\AA\Debug\guide_line.obj"
+         "D:\vs\纵目\AA\Debug\histogram.obj"
+         "D:\vs\纵目\AA\Debug\hw_config.obj"
+         "D:\vs\纵目\AA\Debug\image.obj"
+         "D:\vs\纵目\AA\Debug\image_info.obj"
+         "D:\vs\纵目\AA\Debug\import_dll.obj"
+         "D:\vs\纵目\AA\Debug\inf_motion_aa.obj"
+         "D:\vs\纵目\AA\Debug\interface.obj"
+         "D:\vs\纵目\AA\Debug\io_function.obj"
+         "D:\vs\纵目\AA\Debug\io_kernel.obj"
+         "D:\vs\纵目\AA\Debug\log.obj"
+         "D:\vs\纵目\AA\Debug\mdlg.obj"
+         "D:\vs\纵目\AA\Debug\measure.obj"
+         "D:\vs\纵目\AA\Debug\motions.obj"
+         "D:\vs\纵目\AA\Debug\motor_drv.obj"
+         "D:\vs\纵目\AA\Debug\raw_config.obj"
+         "D:\vs\纵目\AA\Debug\read_cntr.obj"
+         "D:\vs\纵目\AA\Debug\recipe.obj"
+         "D:\vs\纵目\AA\Debug\rs232.obj"
+         "D:\vs\纵目\AA\Debug\sm101.obj"
+         "D:\vs\纵目\AA\Debug\sm102.obj"
+         "D:\vs\纵目\AA\Debug\sm103.obj"
+         "D:\vs\纵目\AA\Debug\sm104.obj"
+         "D:\vs\纵目\AA\Debug\sm201.obj"
+         "D:\vs\纵目\AA\Debug\sm202.obj"
+         "D:\vs\纵目\AA\Debug\sm203.obj"
+         "D:\vs\纵目\AA\Debug\sm204.obj"
+         "D:\vs\纵目\AA\Debug\t10.obj"
+         "D:\vs\纵目\AA\Debug\tcp_ip.obj"
+         "D:\vs\纵目\AA\Debug\test.obj"
+         "D:\vs\纵目\AA\Debug\test_config.obj"
+         "D:\vs\纵目\AA\Debug\test_reg_mark_chart.obj"
+         "D:\vs\纵目\AA\Debug\test_std_chart.obj"
+         "D:\vs\纵目\AA\Debug\test_white.obj"
+         "D:\vs\纵目\AA\Debug\ts_screen.obj"
+         "D:\vs\纵目\AA\Debug\usb_cam.obj"
+         ai_t10.vcxproj -> D:\vs\纵目\AA\\bin\ai_t10_d.exe
+       FinalizeBuildStatus:
+         正在删除文件“D:\vs\纵目\AA\Debug\ai_t10.unsuccessfulbuild”。
+         正在对“D:\vs\纵目\AA\Debug\ai_t10.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\vs\纵目\AA\ai_t10\ai_t10.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.45

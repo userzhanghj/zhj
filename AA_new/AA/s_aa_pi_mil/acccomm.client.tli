@@ -1,0 +1,292 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 10.00.30319.01 (1844dce6).
+//
+// d:\vs\峰梅\mes\vc\vc\acccommclientdemoforvc\release\acccomm.client.tli
+//
+// Wrapper implementations for Win32 type library C:\Windows\SysWOW64\ACCComm.Client.dll
+// compiler-generated file created 04/25/17 at 13:52:47 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface IACCComm wrapper method implementations
+//
+
+inline _bstr_t IACCComm::GetServer ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Server(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IACCComm::PutServer ( _bstr_t pVal ) {
+    HRESULT _hr = put_Server(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline int IACCComm::GetPort ( ) {
+    int _result = 0;
+    HRESULT _hr = get_Port(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IACCComm::PutPort ( int pVal ) {
+    HRESULT _hr = put_Port(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IACCComm::GetProgram ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Program(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IACCComm::PutProgram ( _bstr_t pVal ) {
+    HRESULT _hr = put_Program(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IACCComm::GetStation ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Station(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IACCComm::PutStation ( _bstr_t pVal ) {
+    HRESULT _hr = put_Station(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IACCComm::GetProduct ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Product(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IACCComm::PutProduct ( _bstr_t pVal ) {
+    HRESULT _hr = put_Product(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline long IACCComm::GetRTN_Code ( ) {
+    long _result = 0;
+    HRESULT _hr = get_RTN_Code(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IACCComm::GetRTN_Msg ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_RTN_Msg(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline VARIANT_BOOL IACCComm::GetConnected ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_Connected(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IACCComm::GetLogFile ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_LogFile(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IACCComm::PutLogFile ( _bstr_t pVal ) {
+    HRESULT _hr = put_LogFile(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT IACCComm::Open ( ) {
+    HRESULT _hr = raw_Open();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IACCComm::Close ( ) {
+    HRESULT _hr = raw_Close();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline long IACCComm::SendCommand ( _bstr_t cmd, _bstr_t param ) {
+    long _result = 0;
+    HRESULT _hr = raw_SendCommand(cmd, param, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IACCCmdPtr IACCComm::CreateCmd ( ) {
+    struct IACCCmd * _result = 0;
+    HRESULT _hr = raw_CreateCmd(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IACCCmdPtr(_result, false);
+}
+
+//
+// interface IACCCmd wrapper method implementations
+//
+
+inline IACCCommPtr IACCCmd::GetACCComm ( ) {
+    struct IACCComm * _result = 0;
+    HRESULT _hr = get_ACCComm(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IACCCommPtr(_result, false);
+}
+
+inline _bstr_t IACCCmd::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IACCCmd::PutName ( _bstr_t pVal ) {
+    HRESULT _hr = put_Name(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IACCCmd::GetParams ( _bstr_t Name ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Params(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IACCCmd::PutParams ( _bstr_t Name, _bstr_t pVal ) {
+    HRESULT _hr = put_Params(Name, pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline long IACCCmd::GetRTN_Code ( ) {
+    long _result = 0;
+    HRESULT _hr = get_RTN_Code(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IACCCmd::GetRTN_Msg ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_RTN_Msg(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline long IACCCmd::GetRTN_StatusBits ( ) {
+    long _result = 0;
+    HRESULT _hr = get_RTN_StatusBits(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IACCCmd::GetRTN_CycleID ( ) {
+    long _result = 0;
+    HRESULT _hr = get_RTN_CycleID(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline int IACCCmd::GetRTN_UnitParttypeID ( ) {
+    int _result = 0;
+    HRESULT _hr = get_RTN_UnitParttypeID(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline int IACCCmd::GetRTN_IsRework ( ) {
+    int _result = 0;
+    HRESULT _hr = get_RTN_IsRework(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IACCCmd::GetRTN_PanelState ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_RTN_PanelState(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline SAFEARRAY * IACCCmd::GetRTN_PartTypeList ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = get_RTN_PartTypeList(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline SAFEARRAY * IACCCmd::GetRTN_N_Int ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = get_RTN_N_Int(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline SAFEARRAY * IACCCmd::GetRTN_N_Real ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = get_RTN_N_Real(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline SAFEARRAY * IACCCmd::GetRTN_N_String ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = get_RTN_N_String(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline int IACCCmd::GetRTN_AuditRequired ( ) {
+    int _result = 0;
+    HRESULT _hr = get_RTN_AuditRequired(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IACCCmd::GetRTN_AuditBits ( ) {
+    long _result = 0;
+    HRESULT _hr = get_RTN_AuditBits(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IACCCmd::GetRTN_ServerTime ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_RTN_ServerTime(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IACCCmd::GetRTN_OtherInfo ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_RTN_OtherInfo(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline SAFEARRAY * IACCCmd::GetRTN_N_Cycle_ID ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = get_RTN_N_Cycle_ID(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IACCCmd::GetRTN_Params ( _bstr_t Name ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_RTN_Params(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline long IACCCmd::Send ( ) {
+    long _result = 0;
+    HRESULT _hr = raw_Send(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}

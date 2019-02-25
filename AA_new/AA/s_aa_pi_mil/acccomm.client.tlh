@@ -1,0 +1,325 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 10.00.30319.01 (1844dce6).
+//
+// d:\vs\峰梅\mes\vc\vc\acccommclientdemoforvc\release\acccomm.client.tlh
+//
+// C++ source equivalent of Win32 type library C:\Windows\SysWOW64\ACCComm.Client.dll
+// compiler-generated file created 04/25/17 at 13:52:47 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace ACCCommClientLib {
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("d499b7ab-7d73-4fbe-93ca-99cdb2f2294e"))
+/* LIBID */ __ACCCommClientLib;
+struct __declspec(uuid("291459d7-7935-4568-898b-1237d7e6f9b2"))
+/* dispinterface */ _IACCCommEvents;
+struct /* coclass */ ACCComm;
+struct __declspec(uuid("010251cf-4bb6-4673-8b3c-ae77d1dd81da"))
+/* dual interface */ IACCComm;
+struct __declspec(uuid("439f1944-8a0f-4323-83bd-e6d7f779201e"))
+/* dual interface */ IACCCmd;
+struct /* coclass */ ACCCmd;
+struct CommandResult;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(_IACCCommEvents, __uuidof(_IACCCommEvents));
+_COM_SMARTPTR_TYPEDEF(IACCComm, __uuidof(IACCComm));
+_COM_SMARTPTR_TYPEDEF(IACCCmd, __uuidof(IACCCmd));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("291459d7-7935-4568-898b-1237d7e6f9b2"))
+_IACCCommEvents : IDispatch
+{};
+
+struct __declspec(uuid("fcf02c9a-98f1-47f3-aa21-6a7ac9742e72"))
+ACCComm;
+    // [ default ] interface IACCComm
+    // [ default, source ] dispinterface _IACCCommEvents
+
+struct __declspec(uuid("785f8d36-c49d-47b0-b5a0-7083aad74201"))
+ACCCmd;
+    // [ default ] interface IACCCmd
+
+#pragma pack(push, 8)
+
+struct __declspec(uuid("512556c8-d550-82be-8c0c-f0d28dc06da8"))
+CommandResult
+{
+    long StatusBits;
+    long Cycle_ID;
+    SAFEARRAY * N_Cycle_ID;
+    int UnitParttypeID;
+    VARIANT_BOOL IsRework;
+    BSTR PanelState;
+    SAFEARRAY * PartTypeList;
+    SAFEARRAY * N_Int;
+    SAFEARRAY * N_Real;
+    SAFEARRAY * N_String;
+    VARIANT_BOOL AuditRequired;
+    long AuditBits;
+    DATE ServerTime;
+    BSTR OtherInfo;
+};
+
+#pragma pack(pop)
+
+struct __declspec(uuid("010251cf-4bb6-4673-8b3c-ae77d1dd81da"))
+IACCComm : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetServer,put=PutServer))
+    _bstr_t Server;
+    __declspec(property(get=GetPort,put=PutPort))
+    int Port;
+    __declspec(property(get=GetProgram,put=PutProgram))
+    _bstr_t Program;
+    __declspec(property(get=GetStation,put=PutStation))
+    _bstr_t Station;
+    __declspec(property(get=GetProduct,put=PutProduct))
+    _bstr_t Product;
+    __declspec(property(get=GetRTN_Code))
+    long RTN_Code;
+    __declspec(property(get=GetRTN_Msg))
+    _bstr_t RTN_Msg;
+    __declspec(property(get=GetConnected))
+    VARIANT_BOOL Connected;
+    __declspec(property(get=GetLogFile,put=PutLogFile))
+    _bstr_t LogFile;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _bstr_t GetServer ( );
+    void PutServer (
+        _bstr_t pVal );
+    int GetPort ( );
+    void PutPort (
+        int pVal );
+    _bstr_t GetProgram ( );
+    void PutProgram (
+        _bstr_t pVal );
+    _bstr_t GetStation ( );
+    void PutStation (
+        _bstr_t pVal );
+    _bstr_t GetProduct ( );
+    void PutProduct (
+        _bstr_t pVal );
+    long GetRTN_Code ( );
+    _bstr_t GetRTN_Msg ( );
+    VARIANT_BOOL GetConnected ( );
+    _bstr_t GetLogFile ( );
+    void PutLogFile (
+        _bstr_t pVal );
+    HRESULT Open ( );
+    HRESULT Close ( );
+    long SendCommand (
+        _bstr_t cmd,
+        _bstr_t param );
+    IACCCmdPtr CreateCmd ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Server (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall put_Server (
+        /*[in]*/ BSTR pVal ) = 0;
+      virtual HRESULT __stdcall get_Port (
+        /*[out,retval]*/ int * pVal ) = 0;
+      virtual HRESULT __stdcall put_Port (
+        /*[in]*/ int pVal ) = 0;
+      virtual HRESULT __stdcall get_Program (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall put_Program (
+        /*[in]*/ BSTR pVal ) = 0;
+      virtual HRESULT __stdcall get_Station (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall put_Station (
+        /*[in]*/ BSTR pVal ) = 0;
+      virtual HRESULT __stdcall get_Product (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall put_Product (
+        /*[in]*/ BSTR pVal ) = 0;
+      virtual HRESULT __stdcall get_RTN_Code (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall get_RTN_Msg (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall get_Connected (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_LogFile (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall put_LogFile (
+        /*[in]*/ BSTR pVal ) = 0;
+      virtual HRESULT __stdcall raw_Open ( ) = 0;
+      virtual HRESULT __stdcall raw_Close ( ) = 0;
+      virtual HRESULT __stdcall raw_SendCommand (
+        /*[in]*/ BSTR cmd,
+        /*[in]*/ BSTR param,
+        /*[out,retval]*/ long * pResult ) = 0;
+      virtual HRESULT __stdcall raw_CreateCmd (
+        /*[out,retval]*/ struct IACCCmd * * cmd ) = 0;
+};
+
+struct __declspec(uuid("439f1944-8a0f-4323-83bd-e6d7f779201e"))
+IACCCmd : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetACCComm))
+    IACCCommPtr ACCComm;
+    __declspec(property(get=GetName,put=PutName))
+    _bstr_t Name;
+    __declspec(property(get=GetParams,put=PutParams))
+    _bstr_t Params[];
+    __declspec(property(get=GetRTN_Code))
+    long RTN_Code;
+    __declspec(property(get=GetRTN_Msg))
+    _bstr_t RTN_Msg;
+    __declspec(property(get=GetRTN_StatusBits))
+    long RTN_StatusBits;
+    __declspec(property(get=GetRTN_CycleID))
+    long RTN_CycleID;
+    __declspec(property(get=GetRTN_UnitParttypeID))
+    int RTN_UnitParttypeID;
+    __declspec(property(get=GetRTN_IsRework))
+    int RTN_IsRework;
+    __declspec(property(get=GetRTN_PanelState))
+    _bstr_t RTN_PanelState;
+    __declspec(property(get=GetRTN_PartTypeList))
+    SAFEARRAY * RTN_PartTypeList;
+    __declspec(property(get=GetRTN_N_Int))
+    SAFEARRAY * RTN_N_Int;
+    __declspec(property(get=GetRTN_N_Real))
+    SAFEARRAY * RTN_N_Real;
+    __declspec(property(get=GetRTN_N_String))
+    SAFEARRAY * RTN_N_String;
+    __declspec(property(get=GetRTN_AuditRequired))
+    int RTN_AuditRequired;
+    __declspec(property(get=GetRTN_AuditBits))
+    long RTN_AuditBits;
+    __declspec(property(get=GetRTN_ServerTime))
+    _bstr_t RTN_ServerTime;
+    __declspec(property(get=GetRTN_OtherInfo))
+    _bstr_t RTN_OtherInfo;
+    __declspec(property(get=GetRTN_N_Cycle_ID))
+    SAFEARRAY * RTN_N_Cycle_ID;
+    __declspec(property(get=GetRTN_Params))
+    _bstr_t RTN_Params[];
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IACCCommPtr GetACCComm ( );
+    _bstr_t GetName ( );
+    void PutName (
+        _bstr_t pVal );
+    _bstr_t GetParams (
+        _bstr_t Name );
+    void PutParams (
+        _bstr_t Name,
+        _bstr_t pVal );
+    long GetRTN_Code ( );
+    _bstr_t GetRTN_Msg ( );
+    long GetRTN_StatusBits ( );
+    long GetRTN_CycleID ( );
+    int GetRTN_UnitParttypeID ( );
+    int GetRTN_IsRework ( );
+    _bstr_t GetRTN_PanelState ( );
+    SAFEARRAY * GetRTN_PartTypeList ( );
+    SAFEARRAY * GetRTN_N_Int ( );
+    SAFEARRAY * GetRTN_N_Real ( );
+    SAFEARRAY * GetRTN_N_String ( );
+    int GetRTN_AuditRequired ( );
+    long GetRTN_AuditBits ( );
+    _bstr_t GetRTN_ServerTime ( );
+    _bstr_t GetRTN_OtherInfo ( );
+    SAFEARRAY * GetRTN_N_Cycle_ID ( );
+    _bstr_t GetRTN_Params (
+        _bstr_t Name );
+    long Send ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_ACCComm (
+        /*[out,retval]*/ struct IACCComm * * pVal ) = 0;
+      virtual HRESULT __stdcall get_Name (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall put_Name (
+        /*[in]*/ BSTR pVal ) = 0;
+      virtual HRESULT __stdcall get_Params (
+        /*[in]*/ BSTR Name,
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall put_Params (
+        /*[in]*/ BSTR Name,
+        /*[in]*/ BSTR pVal ) = 0;
+      virtual HRESULT __stdcall get_RTN_Code (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall get_RTN_Msg (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall get_RTN_StatusBits (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall get_RTN_CycleID (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall get_RTN_UnitParttypeID (
+        /*[out,retval]*/ int * pVal ) = 0;
+      virtual HRESULT __stdcall get_RTN_IsRework (
+        /*[out,retval]*/ int * pVal ) = 0;
+      virtual HRESULT __stdcall get_RTN_PanelState (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall get_RTN_PartTypeList (
+        /*[out,retval]*/ SAFEARRAY * * pVal ) = 0;
+      virtual HRESULT __stdcall get_RTN_N_Int (
+        /*[out,retval]*/ SAFEARRAY * * pVal ) = 0;
+      virtual HRESULT __stdcall get_RTN_N_Real (
+        /*[out,retval]*/ SAFEARRAY * * pVal ) = 0;
+      virtual HRESULT __stdcall get_RTN_N_String (
+        /*[out,retval]*/ SAFEARRAY * * pVal ) = 0;
+      virtual HRESULT __stdcall get_RTN_AuditRequired (
+        /*[out,retval]*/ int * pVal ) = 0;
+      virtual HRESULT __stdcall get_RTN_AuditBits (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall get_RTN_ServerTime (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall get_RTN_OtherInfo (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall get_RTN_N_Cycle_ID (
+        /*[out,retval]*/ SAFEARRAY * * pVal ) = 0;
+      virtual HRESULT __stdcall get_RTN_Params (
+        /*[in]*/ BSTR Name,
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Send (
+        /*[out,retval]*/ long * Result ) = 0;
+};
+
+//
+// Wrapper method implementations
+//
+
+#include "acccomm.client.tli"
+
+} // namespace ACCCommClientLib
+
+#pragma pack(pop)

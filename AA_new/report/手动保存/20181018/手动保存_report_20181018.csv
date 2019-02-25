@@ -1,0 +1,2 @@
+date, sn, test_result, dispensing_result, sfr_c, sfr_lu, sfr_ru, sfr_lb, sfr_rb, eSfrDiff, tilt_x, tilt_y, 					 center_x, center_y, coor_lt_x, coor_lt_y, coor_rt_x, coor_rt_y, coor_lb_x, coor_lb_y, coor_rb_x, coor_rb_y, eCoorDiff
+#20181018143642, , 0, 0, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00

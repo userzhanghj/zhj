@@ -1,0 +1,98 @@
+﻿生成启动时间为 2019/1/22 14:11:33。
+     1>项目“D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\s_aa_pi_mil\s_aa_pi_mil.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\s_aa.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\s_aa_pi_mil.res" s_aa_pi_mil.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\\..\s_aa.exe" /INCREMENTAL:NO MIL.lib opencv_ml2410d.lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_objdetect2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_nonfree2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_videostab2410d.lib opencv_objdetect2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_nonfree2410.lib opencv_ocl2410.lib opencv_photo2410.lib opencv_stitching2410.lib opencv_superres2410.lib opencv_videostab2410.lib opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\s_aa.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\s_aa.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\\..\s_aa.lib" /MACHINE:X86 "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\s_aa_pi_mil.res"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\aa_motion.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\cvbs_tsw_360e.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\guide_line.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\histogram.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\hw_config.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\image.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\image_info.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\import_dll.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\inf_motion_aa.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\inf_motion_pi.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\interface.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\io_function.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\io_kernel.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\log.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\mdlg.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\measure.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\mil_cap.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\motions.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\motor_drv.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\okng_test.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\pi_motion.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\read_cntr.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\recipe.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\save_set.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\sm101.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\sm102.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\sm103.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\sm104.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\sm201.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\sm202.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\sm203.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\sm204.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\s_aa.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\tcp_ip.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\test.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\test_config.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\test_reg_mark_chart.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\ts_screen.obj"
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\user_login.obj"
+         Microsoft (R) Incremental Linker Version 10.00.30319.01
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         "/OUT:D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\\..\s_aa.exe" /INCREMENTAL:NO MIL.lib opencv_ml2410d.lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_objdetect2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_nonfree2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_videostab2410d.lib opencv_objdetect2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_nonfree2410.lib opencv_ocl2410.lib opencv_photo2410.lib opencv_stitching2410.lib opencv_superres2410.lib opencv_videostab2410.lib opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST "/ManifestFile:D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\s_aa.exe.intermediate.manifest" "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /DEBUG "/PDB:D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\s_aa.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT "/IMPLIB:D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\\..\s_aa.lib" /MACHINE:X86 "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\s_aa_pi_mil.res" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\aa_motion.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\cvbs_tsw_360e.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\guide_line.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\histogram.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\hw_config.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\image.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\image_info.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\import_dll.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\inf_motion_aa.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\inf_motion_pi.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\interface.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\io_function.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\io_kernel.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\log.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\mdlg.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\measure.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\mil_cap.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\motions.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\motor_drv.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\okng_test.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\pi_motion.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\read_cntr.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\recipe.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\save_set.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\sm101.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\sm102.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\sm103.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\sm104.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\sm201.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\sm202.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\sm203.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\sm204.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\s_aa.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\tcp_ip.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\test.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\test_config.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\test_reg_mark_chart.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\ts_screen.obj" 
+         "D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\Release\user_login.obj" 
+     1>LINK : fatal error LNK1181: 无法打开输入文件“MIL.lib”
+     1>已完成生成项目“D:\code\星际舟-0120\AA_new1224\AA_new1121\AA_new\AA\s_aa_pi_mil\s_aa_pi_mil.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.17

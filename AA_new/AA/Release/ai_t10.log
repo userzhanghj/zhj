@@ -1,0 +1,105 @@
+﻿生成启动时间为 2018/10/7 11:38:33。
+     1>项目“D:\软件\vs\vs\星际舟\AA_new\AA\s_aa_pi_mil\ai_t10.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“D:\软件\vs\vs\星际舟\AA_new\AA\Release\s_aa.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         E:\vs2010\VC\bin\CL.exe /c /Ic:\opencv\build\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\软件\vs\vs\星际舟\AA_new\AA\Release\\" /Fd"D:\软件\vs\vs\星际舟\AA_new\AA\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dlg_cap_config.cpp dlg_webcam_config.cpp hw_config.cpp test.cpp
+         dlg_cap_config.cpp
+         dlg_webcam_config.cpp
+         hw_config.cpp
+         test.cpp
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         E:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\软件\vs\vs\星际舟\AA_new\AA\\..\s_aa.exe" /INCREMENTAL:NO opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib opencv_nonfree2410.lib opencv_objdetect2410.lib opencv_ocl2410.lib opencv_photo2410.lib opencv_stitching2410.lib opencv_superres2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_videostab2410.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"D:\软件\vs\vs\星际舟\AA_new\AA\Release\s_aa.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\软件\vs\vs\星际舟\AA_new\s_aa.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\软件\vs\vs\星际舟\AA_new\AA\\..\s_aa.lib" /MACHINE:X86 "D:\软件\vs\vs\星际舟\AA_new\AA\Release\ai_t10.res"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\aa_motion.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\cvbs_tsw_360e.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\dlg_cap_config.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\dlg_webcam_config.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\guide_line.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\histogram.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\hw_config.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\image.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\image_info.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\import_dll.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\inf_motion_aa.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\interface.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\io_function.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\io_kernel.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\log.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\mdlg.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\measure.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\MILcapture.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\motions.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\motor_drv.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\raw_config.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\read_cntr.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\recipe.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\sm101.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\sm102.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\sm103.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\sm104.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\sm201.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\sm202.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\sm203.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\sm204.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\s_aa.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\tcp_ip.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\test.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\test_config.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\test_reg_mark_chart.obj"
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\ts_screen.obj"
+         Microsoft (R) Incremental Linker Version 10.00.40219.01
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         "/OUT:D:\软件\vs\vs\星际舟\AA_new\AA\\..\s_aa.exe" /INCREMENTAL:NO opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib opencv_nonfree2410.lib opencv_objdetect2410.lib opencv_ocl2410.lib opencv_photo2410.lib opencv_stitching2410.lib opencv_superres2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_videostab2410.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST "/ManifestFile:D:\软件\vs\vs\星际舟\AA_new\AA\Release\s_aa.exe.intermediate.manifest" "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /DEBUG "/PDB:D:\软件\vs\vs\星际舟\AA_new\s_aa.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT "/IMPLIB:D:\软件\vs\vs\星际舟\AA_new\AA\\..\s_aa.lib" /MACHINE:X86 "D:\软件\vs\vs\星际舟\AA_new\AA\Release\ai_t10.res" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\aa_motion.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\cvbs_tsw_360e.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\dlg_cap_config.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\dlg_webcam_config.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\guide_line.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\histogram.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\hw_config.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\image.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\image_info.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\import_dll.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\inf_motion_aa.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\interface.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\io_function.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\io_kernel.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\log.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\mdlg.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\measure.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\MILcapture.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\motions.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\motor_drv.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\raw_config.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\read_cntr.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\recipe.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\sm101.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\sm102.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\sm103.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\sm104.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\sm201.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\sm202.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\sm203.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\sm204.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\s_aa.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\tcp_ip.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\test.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\test_config.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\test_reg_mark_chart.obj" 
+         "D:\软件\vs\vs\星际舟\AA_new\AA\Release\ts_screen.obj" 
+         正在生成代码
+         已完成代码的生成
+         ai_t10.vcxproj -> D:\软件\vs\vs\星际舟\AA_new\AA\\..\s_aa.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\软件\vs\vs\星际舟\AA_new\AA\\..\s_aa.exe;#1" /manifest "D:\软件\vs\vs\星际舟\AA_new\AA\Release\s_aa.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“D:\软件\vs\vs\星际舟\AA_new\AA\Release\s_aa.unsuccessfulbuild”。
+         正在对“D:\软件\vs\vs\星际舟\AA_new\AA\Release\s_aa.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\软件\vs\vs\星际舟\AA_new\AA\s_aa_pi_mil\ai_t10.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.59
