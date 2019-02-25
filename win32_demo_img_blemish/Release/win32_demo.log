@@ -1,0 +1,28 @@
+﻿生成启动时间为 2018/8/1 14:11:05。
+     1>项目“D:\zhj\weixin\WeChat Files\zhj_0219\Files\win32_demo_img_blemish (3)\win32_demo_img_blemish1\win32_demo_img_blemish\win32_demo\win32_demo.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“D:\zhj\weixin\WeChat Files\zhj_0219\Files\win32_demo_img_blemish (3)\win32_demo_img_blemish1\win32_demo_img_blemish\\Release\win32_demo.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"D:\zhj\weixin\WeChat Files\zhj_0219\Files\win32_demo_img_blemish (3)\win32_demo_img_blemish1\win32_demo_img_blemish\\Release\win32_demo.res" win32_demo.rc 
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winuser.rh(1327): warning RC4005: 'IDOK' : redefinition
+         
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winuser.rh(1328): warning RC4005: 'IDCANCEL' : redefinition
+         
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\zhj\weixin\WeChat Files\zhj_0219\Files\win32_demo_img_blemish (3)\win32_demo_img_blemish1\win32_demo_img_blemish\\bin\win32_demo.exe" /INCREMENTAL:NO /NOLOGO opencv_ml2410d.lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_objdetect2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_nonfree2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_videostab2410d.lib opencv_objdetect2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_nonfree2410.lib opencv_ocl2410.lib opencv_photo2410.lib opencv_stitching2410.lib opencv_superres2410.lib opencv_videostab2410.lib opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"D:\zhj\weixin\WeChat Files\zhj_0219\Files\win32_demo_img_blemish (3)\win32_demo_img_blemish1\win32_demo_img_blemish\\Release\win32_demo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\zhj\weixin\WeChat Files\zhj_0219\Files\win32_demo_img_blemish (3)\win32_demo_img_blemish1\win32_demo_img_blemish\bin\win32_demo.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\zhj\weixin\WeChat Files\zhj_0219\Files\win32_demo_img_blemish (3)\win32_demo_img_blemish1\win32_demo_img_blemish\\bin\win32_demo.lib" /MACHINE:X86 "D:\zhj\weixin\WeChat Files\zhj_0219\Files\win32_demo_img_blemish (3)\win32_demo_img_blemish1\win32_demo_img_blemish\\Release\win32_demo.res"
+         "D:\zhj\weixin\WeChat Files\zhj_0219\Files\win32_demo_img_blemish (3)\win32_demo_img_blemish1\win32_demo_img_blemish\\Release\win32_demo.obj"
+         正在生成代码
+         已完成代码的生成
+         win32_demo.vcxproj -> D:\zhj\weixin\WeChat Files\zhj_0219\Files\win32_demo_img_blemish (3)\win32_demo_img_blemish1\win32_demo_img_blemish\\bin\win32_demo.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\zhj\weixin\WeChat Files\zhj_0219\Files\win32_demo_img_blemish (3)\win32_demo_img_blemish1\win32_demo_img_blemish\\bin\win32_demo.exe;#1" /manifest "D:\zhj\weixin\WeChat Files\zhj_0219\Files\win32_demo_img_blemish (3)\win32_demo_img_blemish1\win32_demo_img_blemish\\Release\win32_demo.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“D:\zhj\weixin\WeChat Files\zhj_0219\Files\win32_demo_img_blemish (3)\win32_demo_img_blemish1\win32_demo_img_blemish\\Release\win32_demo.unsuccessfulbuild”。
+         正在对“D:\zhj\weixin\WeChat Files\zhj_0219\Files\win32_demo_img_blemish (3)\win32_demo_img_blemish1\win32_demo_img_blemish\\Release\win32_demo.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\zhj\weixin\WeChat Files\zhj_0219\Files\win32_demo_img_blemish (3)\win32_demo_img_blemish1\win32_demo_img_blemish\win32_demo\win32_demo.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.48
